@@ -3,3 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    width: 90%;
+    margin: 40px auto;
+}
+
+h1{
+    text-align: center;
+    color: rgb(229, 49, 112);
+    margin-bottom: 30px;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card{
+    width: 32%;
+    color: white;
+    float: left;
+    background-color: rgb(14, 15, 23);
+    margin: 20px 5px;
+
+}
+
+.card::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.info{
+    padding: 15px;
+}
+
+.mail{
+    color: lightskyblue;
+}
+
+.pro-pic{
+    float: left;
+    width: 100px;
+    margin-right: 15px;
+}
